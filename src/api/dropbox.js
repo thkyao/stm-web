@@ -4,7 +4,7 @@ let dbx;
 class DropBoxApi {
     constructor() {
         dbx = new Dropbox({
-            accessToken: proceess.env.VUE_APP_DROPBOX_ACCSESSTOKEN
+            accessToken: process.env.VUE_APP_DROPBOX_ACCSESSTOKEN
          });
     }
  
