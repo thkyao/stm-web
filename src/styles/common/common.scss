@@ -1,0 +1,37 @@
+@import './_mixin.scss';
+
+.v-application a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.opacity70 {
+    opacity: 0.7;
+}
+
+.opacity100 {
+    opacity: 1;
+}
+
+.page-base {
+    background-color: white;
+    background: rgba(255, 255, 255, 0.85);
+    height: 80vh;
+    margin: 10px 25px 10px 25px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.overflow {
+    overflow:auto;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
